@@ -9,7 +9,7 @@ import { HttpClient } from 'selenium-webdriver/http';
 })
 export class StudentComponent implements OnInit {
 
-  constructor(private http: HttpClient, private router: Router) { }
+  constructor() { }
 
   ngOnInit() {
   }
