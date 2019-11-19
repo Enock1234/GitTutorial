@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from 'selenium-webdriver/http';
 
+
 @Component({
   selector: 'app-student',
   templateUrl: './student.component.html',
@@ -8,7 +9,7 @@ import { HttpClient } from 'selenium-webdriver/http';
 })
 export class StudentComponent implements OnInit {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit() {
   }
