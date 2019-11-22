@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from 'selenium-webdriver/http';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,9 @@ import { HttpClient } from 'selenium-webdriver/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(private http: HttpClient){
+  constructor(private http: HttpClient, router: Router){
 
   }
+ 
   title = 'gittutorials';
 }
